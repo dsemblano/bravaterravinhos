@@ -2,9 +2,9 @@
 # host machine and then copying the files to the remote server
 #
 # ⚠️ This example assumes your theme is using Sage 11
-
-Uncomment the lines below if you are using Sage 11
-and replace `sage` with your theme folder
+#
+# Uncomment the lines below if you are using Sage 11
+# and replace `sage` with your theme folder
 
 ---
 - name: Install npm dependencies

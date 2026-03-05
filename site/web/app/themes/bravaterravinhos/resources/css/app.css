@@ -93,6 +93,10 @@ h6 {
   color: var(--color-primary);
 }
 
+.home h1.wp-block-heading {
+    font-size: 5rem;
+}
+
 strong {
   color: inherit;
 }
