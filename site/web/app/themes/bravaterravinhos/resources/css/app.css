@@ -1,0 +1,108 @@
+@import "tailwindcss" theme(static);
+@plugin "@tailwindcss/typography";
+@source "../views/";
+@source "../../app/";
+@import './fonts.css';
+
+@theme static {
+  --color-primary: #876028;
+  --color-secondary: #6B9CB2;
+  --color-fundo: #f5f5dc;
+  --color-p: #4B4B68;
+  --font-heading: "Expletus_Sans", sans-serif;
+  --font-sans: "Albert_Sans", sans-serif;
+  --font-p: ui-sans-serif, system-ui, sans-serif;
+  --arrow-link: #D68778;
+  --arrow-small: 480px;
+  --arrow-medium: 768px;
+  --arrow-large: 1024px;
+  --arrow-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+@theme {
+  --animate-fade-in: fade-in 0.8s ease-out forwards;
+  --color-nectar-gold: #D4AF37;
+}
+
+@utility reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+@utility is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 3. Para media queries, você pode usar classes normais ou utilitários separados */
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* 
+@layer components {
+  #hero-wrapper {
+    @apply prose lg:prose-lg prose-h1:mt-4 prose-h1:mb-1;
+  }
+} */
+
+
+/* .container {
+  @apply bg-blue-500;
+} */
+
+
+@layer utility {
+  .container {
+    padding: var(--container-padding, 1rem);
+    margin-inline: auto;
+
+    @variant lg {
+      padding-inline: 8rem;
+    }
+
+    @variant xl {
+      padding-inline: 10rem;
+    }
+  }
+}
+
+:root {
+  color-scheme: only light;
+  --h1-height: 1.2em;
+  --animation-speed: 9s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+}
+
+strong {
+  color: inherit;
+}
+
+p {
+    font-family: var(--font-sans);
+    color: var(--color-p);
+}
+
+/* Menu */
+ul#menu-menu-principal {
+  @apply flex flex-col lg:flex-row gap-x-8
+}
