@@ -39,11 +39,11 @@
                     ]);
                 @endphp
 
-                <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+                {{-- <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
                     @foreach ($products as $product)
                         <x-product-card :product="$product" />
                     @endforeach
-                </div>
+                </div> --}}
 
             </div>
         @endif
