@@ -96,7 +96,7 @@ h6 {
 
 .home h1.wp-block-heading {
     font-size: 5rem;
-    color: var(--color-secondary);
+    /* color: var(--color-secondary); */
 }
 
 strong {
