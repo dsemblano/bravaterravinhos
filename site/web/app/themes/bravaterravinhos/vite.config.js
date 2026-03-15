@@ -32,6 +32,9 @@ export default defineConfig({
       disableTailwindFontSizes: false,
     }),
   ],
+  optimizeDeps: {
+    include: ['alpinejs'],
+  },
   resolve: {
     alias: {
       '@scripts': '/resources/js',
