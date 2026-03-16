@@ -1,4 +1,4 @@
-<header class="banner flex w-full z-50 top-0 left-0 bg-transparent absolute">
+<header class="banner flex w-full z-50 top-0 left-0 bg-transparent">
     <div class="flex flex-row lg:flex-col text-p container justify-center">
         @include('partials.logo')
         @if (has_nav_menu('primary_navigation'))
