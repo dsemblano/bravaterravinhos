@@ -108,6 +108,11 @@ p {
     color: var(--color-p);
 }
 
+/* Home */
+.wp-block-cover .wp-block-cover__inner-container, .wp-block-cover-image .wp-block-cover__inner-container {
+  top: 8rem;
+}
+
 /* Menu */
 ul#menu-menu-principal {
   @apply flex flex-col lg:flex-row gap-x-8
