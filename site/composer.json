@@ -38,7 +38,7 @@
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
-    "roots/wordpress": "6.9.1",
+    "roots/wordpress": "^6.9.1",
     "wpackagist-plugin/woocommerce":">=10.5.2",
     "wpackagist-plugin/zoloblocks":">=2.2.7",
     "wpackagist-plugin/ewww-image-optimizer":">=8.1.4",
