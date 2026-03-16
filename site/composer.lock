@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3eac2e3c0152eed191e024c5cb72357a",
+    "content-hash": "ecdc6cbcd35c7ea5742f21edaf8f700e",
     "packages": [
         {
             "name": "brick/math",
@@ -7054,24 +7054,6 @@
             "homepage": "https://wordpress.org/plugins/better-block-editor/"
         },
         {
-            "name": "wpackagist-plugin/cart-for-woocommerce",
-            "version": "1.9.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cart-for-woocommerce/",
-                "reference": "tags/1.9.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cart-for-woocommerce.1.9.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cart-for-woocommerce/"
-        },
-        {
             "name": "wpackagist-plugin/checkoutwc-lite",
             "version": "11.0.6",
             "source": {
@@ -7124,6 +7106,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
+        },
+        {
+            "name": "wpackagist-plugin/fast-cart",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fast-cart/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fast-cart.1.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fast-cart/"
         },
         {
             "name": "wpackagist-plugin/foogallery",
