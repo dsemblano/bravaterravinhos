@@ -5,8 +5,8 @@
 @import './fonts.css';
 
 @theme static {
-  --color-primary: #876028;
-  --color-secondary: #6B9CB2;
+  --color-primary: #ff000;
+  --color-secondary: #FBDC8E;
   --color-tertiary: #93364E;
   --color-fundo: #f5f5dc;
   --color-p: #4B4B68;
