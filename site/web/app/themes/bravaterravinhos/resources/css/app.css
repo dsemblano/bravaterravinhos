@@ -5,10 +5,13 @@
 @import './fonts.css';
 
 @theme static {
-  --color-primary: #ff000;
-  --color-secondary: #FBDC8E;
+  /* --color-primary: #395144;
+  --color-secondary: #FBDC8E; */
+  --color-primary: #876028;
+  --color-secondary: #6B9CB2;
   --color-tertiary: #93364E;
-  --color-fundo: #f5f5dc;
+  --color-fundo: #1F1A13;
+  /* --color-fundo: #f5f5dc; */
   --color-p: #4B4B68;
   --font-heading: "Expletus_Sans", sans-serif;
   --font-sans: "Albert_Sans", sans-serif;
@@ -91,7 +94,12 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-  color: var(--color-primary);
+  color: var(--color-white);
+}
+
+body {
+  background-color: var(--color-fundo);
+
 }
 
 .home h1.wp-block-heading {
@@ -105,7 +113,7 @@ strong {
 
 p {
   font-family: var(--font-sans);
-  color: var(--color-p);
+  color: var(--color-secondary);
 }
 
 /* Home */
