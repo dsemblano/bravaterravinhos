@@ -141,18 +141,18 @@ ul#menu-menu-principal {
 }
 
 /* Main CTA */
-.hero-cta,
-.woocommerce div.product form.cart .single_add_to_cart_button,
-#place_order,
-#submit-payment,
-.woocommerce a.checkout-button.button.alt,
-#fkcart-modal .fkcart-zero-state .fkcart-shop-button,
-.product-button,
-.wp-block-button__link,
-.wp-element-button,
-#fkcart-modal .fkcart-checkout-wrap #fkcart-checkout-button {
-  @apply px-4 py-4 rounded-lg text-lg font-bold transition text-white bg-primary hover:brightness-[80%] hover:scale-105 hover:shadow-lg active:scale-95 border-transparent;
-}
+  /* .hero-cta,
+  .woocommerce div.product form.cart .single_add_to_cart_button,
+  #place_order,
+  #submit-payment,
+  .woocommerce a.checkout-button.button.alt,
+  #fkcart-modal .fkcart-zero-state .fkcart-shop-button,
+  .product-button,
+  .wp-block-button__link,
+  .wp-element-button,
+  #fkcart-modal .fkcart-checkout-wrap #fkcart-checkout-button {
+    @apply px-4 py-4 rounded-lg text-lg font-bold transition text-white bg-primary hover:brightness-[80%] hover:scale-105 hover:shadow-lg active:scale-95 border-transparent;
+  } */
 
 
 #shop_products, .wp-block-gallery.has-nested-images.is-cropped {
@@ -215,4 +215,43 @@ ul#menu-menu-principal {
         /* Subtle zoom to 115% and a slight pan */
         transform: scale(1.15) translate(-2%, -1%);
     }
+}
+
+/* 1. Target the Link specifically */
+.wp-block-button.is-liquid-fill .wp-block-button__link {
+    position: relative !important;
+    overflow: hidden !important; 
+    z-index: 1 !important;
+    background-color: transparent !important; 
+    color: var(--wp--preset--color--primary) !important;
+    border: 1px solid var(--wp--preset--color--primary) !important;
+    transition: color 0.5s ease !important;
+    display: block; /* Ensures the hover trigger area is fully filled */
+}
+
+/* 2. Create the 'Wine' Liquid */
+.wp-block-button.is-liquid-fill .wp-block-button__link::before {
+    content: "";
+    position: absolute;
+    top: 100%; /* Back to starting below the button */
+    left: -50%;
+    width: 200%;
+    height: 400%; 
+    background-color: var(--wp--preset--color--tertiary);
+    border-radius: 38%; 
+    z-index: -1; 
+    /* THE FIX: Removed the invalid syntax */
+    transition: top 0.7s ease-in-out, transform 1.2s linear;
+}
+
+/* 3. The Pour Animation */
+.wp-block-button.is-liquid-fill:hover .wp-block-button__link::before {
+    top: -150%; 
+    transform: rotate(360deg); 
+}
+
+/* 4. Text Color Flip (Optimized for your dark theme) */
+.wp-block-button.is-liquid-fill:hover .wp-block-button__link {
+    /* Uses your dark background color for high contrast against the gold fill */
+    color: var(--color-fundo) !important; 
 }
