@@ -195,6 +195,7 @@ ul#menu-menu-principal {
 /* 1. Ensure the parent container clips the zooming image */
 .wp-block-cover.is-ken-burns {
     overflow: hidden;
+    height: 100dvh;
 }
 
 /* 2. Target the background image */
