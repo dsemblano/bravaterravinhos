@@ -8,17 +8,16 @@
   /* --color-primary: #395144;
   --color-secondary: #FBDC8E; */
   /* darkmode */
-  /* --color-primary: #C5A059;
+  --color-primary: #C5A059;
   --color-secondary: #2C2C2C;
   --color-tertiary: #E91E63;
-  --color-fundo: #1F1A13; */
+  --color-fundo: #1F1A13;
   /* lightmode */
-  --color-primary: #5D4037;
+  /* --color-primary: #5D4037;
   --color-secondary: #D7CCC8;
   --color-tertiary: #880E4F;
-  --color-fundo: #fff;
-  /* --color-fundo: #f5f5dc; */
-  --color-p: #880E4F;
+  --color-fundo: #f5f5dc; */
+  --color-p: #FFFFFF;
   --font-heading: "Expletus_Sans", sans-serif;
   --font-sans: "Albert_Sans", sans-serif;
   --font-p: ui-sans-serif, system-ui, sans-serif;
@@ -101,6 +100,10 @@ h5,
 h6 {
   font-family: var(--font-heading);
   color: var(--color-primary);
+}
+
+a {
+  color: inherit
 }
 
 body {
