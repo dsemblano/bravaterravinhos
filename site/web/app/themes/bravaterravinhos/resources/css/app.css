@@ -115,7 +115,7 @@ body {
 
 .home h1.wp-block-heading {
   font-size: 5rem;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 strong {
@@ -228,8 +228,8 @@ ul#menu-menu-principal {
     overflow: hidden !important; 
     z-index: 1 !important;
     background-color: transparent !important; 
-    color: var(--wp--preset--color--primary) !important;
-    border: 1px solid var(--wp--preset--color--primary) !important;
+    color: var(--wp--preset--color--tertiary) !important;
+    border: 1px solid var(--wp--preset--color--tertiary) !important;
     transition: color 0.5s ease !important;
     display: block; /* Ensures the hover trigger area is fully filled */
 }
