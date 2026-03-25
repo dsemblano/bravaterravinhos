@@ -151,7 +151,7 @@ ul#menu-menu-principal {
   .wp-block-button__link,
   .wp-element-button,
   #fkcart-modal .fkcart-checkout-wrap #fkcart-checkout-button {
-    @apply px-4 py-4 rounded-lg text-lg font-bold transition text-white bg-primary hover:brightness-[80%] hover:scale-105 hover:shadow-lg active:scale-95 border-transparent;
+    @apply px-2 py-2 rounded-lg text-sm font-bold transition text-white bg-tertiary hover:bg-tertiary hover:brightness-[80%] hover:scale-105 hover:shadow-lg active:scale-95 border-transparent;
   }
 
 
