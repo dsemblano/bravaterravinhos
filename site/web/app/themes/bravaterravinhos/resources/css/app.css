@@ -119,6 +119,10 @@ body {
   color: var(--color-fundo);
 }
 
+h2 {
+  color: var(--color-primary);
+}
+
 strong {
   color: inherit;
 }
