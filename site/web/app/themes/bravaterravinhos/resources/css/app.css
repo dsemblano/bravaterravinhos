@@ -13,10 +13,16 @@
   --color-tertiary: #E91E63;
   --color-fundo: #1F1A13; */
   /* lightmode */
-  --color-primary: #5D4037;
+  /* --color-primary: #5D4037;
   --color-secondary: #D7CCC8;
   --color-tertiary: #880E4F;
-  --color-fundo: #FAFAF5;
+  --color-fundo: #FAFAF5; */
+  /* berry mode */
+  --color-primary: #4A0E2E;
+  --color-secondary: #C2185B;
+  --color-tertiary: #9575CD;
+  --color-fundo: #FDFCFD;
+
   --color-section: #F4F4EF;
   --color-footer: #ECE0DD;
   --color-p: #504442;
@@ -96,7 +102,7 @@ html {
 
 h1{
   font-family: var(--font-heading);
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 a {
@@ -110,7 +116,7 @@ body {
 
 .home h1.wp-block-heading {
   font-size: 5rem;
-  color: var(--color-secondary);
+  color: var(--color-fundo);
 }
 
 strong {
@@ -151,7 +157,7 @@ ul#menu-menu-principal {
   .wp-block-button__link,
   .wp-element-button,
   #fkcart-modal .fkcart-checkout-wrap #fkcart-checkout-button {
-    @apply px-2 py-2 rounded-lg text-sm font-bold transition text-white bg-tertiary hover:bg-tertiary hover:brightness-[80%] hover:scale-105 hover:shadow-lg active:scale-95 border-transparent;
+    @apply px-2 py-2 rounded-lg text-sm font-bold transition text-white bg-secondary hover:bg-secondary hover:brightness-[80%] hover:scale-105 hover:shadow-lg active:scale-95 border-transparent;
   }
 
 
