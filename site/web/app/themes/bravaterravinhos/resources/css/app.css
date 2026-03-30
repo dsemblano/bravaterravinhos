@@ -26,9 +26,10 @@
   --color-section: #F4F4EF;
   --color-footer: #ECE0DD;
   --color-p: #504442;
-  --font-heading: "Expletus_Sans", sans-serif;
-  --font-sans: "Albert_Sans", sans-serif;
-  --font-p: ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Work_Sans", sans-serif;
+  --font-sans: "Work_Sans_Italic", sans-serif;
+  --font-p: "Noto_Serif", serif;
+  /* --font-p: ui-sans-serif, system-ui, sans-serif; */
   --arrow-link: #D68778;
   --arrow-small: 480px;
   --arrow-medium: 768px;
@@ -105,6 +106,11 @@ h1{
   color: var(--color-secondary);
 }
 
+h2,
+h3 {
+  font-family: var(--font-sans);
+}
+
 a {
   color: inherit
 }
@@ -128,7 +134,7 @@ strong {
 }
 
 p {
-  font-family: var(--font-sans);
+  font-family: var(--font-p);
   color: var(--color-p);
 }
 

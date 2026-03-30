@@ -14,6 +14,46 @@
     src: url('@fonts/Expletus_Sans/ExpletusSans-VariableFont_wght.ttf') format('truetype');
   }
 
+  @font-face {
+    font-display: swap;
+    font-family: 'Work_Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('@fonts/Work_Sans/WorkSans-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Work_Sans_Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: url('@fonts/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Noto_Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('@fonts/Noto_Serif/NotoSerif-VariableFont_wdth,wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Noto_Serif_Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: url('@fonts/Noto_Serif/NotoSerif-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Expletus_Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('@fonts/Expletus_Sans/ExpletusSans-VariableFont_wght.ttf') format('truetype');
+  }
+
   /* @font-face {
     font-display: swap;
     font-family: 'Lato-Regular';
