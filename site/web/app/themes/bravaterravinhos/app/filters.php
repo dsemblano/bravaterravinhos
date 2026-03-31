@@ -146,3 +146,14 @@ add_filter('style_loader_tag', function ($html, $handle, $href, $media) {
 HTML;
 
 }, 10, 4);
+
+add_filter('woocommerce_breadcrumb_defaults', function () {
+    return [
+        'delimiter'   => '<span class="mx-2 text-gray-400">/</span>', // Separador customizado
+        'wrap_before' => '<nav class="flex text-sm font-medium mb-6 container" aria-label="Breadcrumb">',
+        'wrap_after'  => '</nav>',
+        'before'      => '<span class="hover:text-black transition-colors">',
+        'after'       => '</span>',
+        'home'        => _x('Início', 'breadcrumb', 'woocommerce'),
+    ];
+});
