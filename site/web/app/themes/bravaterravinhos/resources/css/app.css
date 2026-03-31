@@ -101,12 +101,12 @@ html {
   scroll-behavior: smooth;
 }
 
-h1{
+h1:not(#hero .wp-block-heading) {
   font-family: var(--font-heading);
   color: var(--color-secondary);
 }
 
-h2,
+h2:not(#hero .wp-block-heading),
 h3 {
   @apply text-3xl;
 
