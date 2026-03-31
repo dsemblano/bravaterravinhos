@@ -27,7 +27,7 @@
   --color-footer: #ECE0DD;
   --color-p: #504442;
   --font-heading: "Work_Sans", sans-serif;
-  --font-sans: "Work_Sans_Italic", sans-serif;
+  --font-sansitalic: "Work_Sans_Italic", sans-serif;
   --font-p: "Noto_Serif", serif;
   /* --font-p: ui-sans-serif, system-ui, sans-serif; */
   --arrow-link: #D68778;
@@ -108,7 +108,25 @@ h1{
 
 h2,
 h3 {
-  font-family: var(--font-sans);
+  @apply text-3xl;
+
+  font-family: var(--font-heading);
+
+}
+
+#info h2 {
+  font-family: var(--font-sansitalic);
+  
+}
+
+section#feature-products {
+  h2 {
+  padding-top: 3rem;
+  }
+  
+  .wp-block-group.alignwide.is-layout-flow.wp-block-group-is-layout-flow {
+    padding-bottom: 3rem;
+  }
 }
 
 a {
