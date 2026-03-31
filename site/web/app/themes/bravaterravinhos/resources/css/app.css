@@ -230,6 +230,10 @@ ul#menu-menu-principal {
   }
 }
 
+#hero {
+  height: 100dvh;
+}
+
 /* 1. Ensure the parent container clips the zooming image */
 .wp-block-cover.is-ken-burns {
     overflow: hidden;
@@ -257,7 +261,7 @@ ul#menu-menu-principal {
 
 /* 1. Target the Link specifically */
 .wp-block-button.is-liquid-fill .wp-block-button__link {
-  @apply px-4 py-6 text-lg font-bold;
+  @apply px-4 py-6 text-lg font-bold; 
 
     position: relative !important;
     overflow: hidden !important; 
