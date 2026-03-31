@@ -149,7 +149,7 @@ HTML;
 
 add_filter('woocommerce_breadcrumb_defaults', function () {
     return [
-        'delimiter'   => '<span class="mx-2 text-gray-400">/</span>', // Separador customizado
+        'delimiter'   => '<span class="mx-2 text-gray-400">/</span>',
         'wrap_before' => '<nav class="flex text-sm font-medium mb-6 container" aria-label="Breadcrumb">',
         'wrap_after'  => '</nav>',
         'before'      => '<span class="hover:text-black transition-colors">',
