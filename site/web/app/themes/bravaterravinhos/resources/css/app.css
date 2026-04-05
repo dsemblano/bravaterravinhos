@@ -106,7 +106,7 @@ h1:not(#hero .wp-block-heading) {
   color: var(--color-secondary);
 }
 
-h2:not(#hero .wp-block-heading),
+.home h2:not(#hero .wp-block-heading),
 h3 {
   @apply text-3xl;
 
@@ -156,7 +156,7 @@ p {
   color: var(--color-p);
 }
 
-section:not(.widget_block) {
+.home section:not(.widget_block) {
   @apply bg-section py-16;
 }
 /* Home */
