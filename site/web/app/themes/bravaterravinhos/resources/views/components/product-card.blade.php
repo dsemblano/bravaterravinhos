@@ -44,7 +44,7 @@
         @endif
 
         {{-- PRICE + CTA --}}
-        <div class="flex items-center justify-between pt-3">
+        <div class="flex items-center justify-between pt-3 min-h-28">
             <span class="text-xl font-bold text-secondary">
                 {!! $product->get_price_html() !!}
             </span>

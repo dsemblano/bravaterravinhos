@@ -179,13 +179,14 @@ ul#menu-menu-principal {
   .woocommerce div.product form.cart .single_add_to_cart_button,
   #place_order,
   #submit-payment,
+  .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button,
   .woocommerce a.checkout-button.button.alt,
   #fkcart-modal .fkcart-zero-state .fkcart-shop-button,
   .product-button,
   .wp-block-button__link,
   .wp-element-button,
   #fkcart-modal .fkcart-checkout-wrap #fkcart-checkout-button {
-    @apply px-2 py-2 rounded-lg text-sm font-bold transition text-white bg-secondary hover:bg-secondary hover:brightness-[80%] hover:scale-105 hover:shadow-lg active:scale-95 border-transparent;
+    @apply px-2 py-2 rounded-lg text-sm font-bold transition text-white hover:text-white bg-secondary hover:bg-secondary hover:brightness-[80%] hover:scale-105 hover:shadow-lg active:scale-95 border-transparent;
   }
 
 
