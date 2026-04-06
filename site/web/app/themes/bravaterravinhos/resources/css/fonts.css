@@ -42,7 +42,7 @@
     font-display: swap;
     font-family: 'Noto_Serif_Italic';
     font-style: italic;
-    font-weight: 400;
+    font-weight: normal;
     src: url('@fonts/Noto_Serif/NotoSerif-Italic-VariableFont_wdth,wght.ttf') format('truetype');
   }
 

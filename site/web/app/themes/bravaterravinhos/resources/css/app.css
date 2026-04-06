@@ -27,7 +27,7 @@
   --color-footer: #ECE0DD;
   --color-p: #504442;
   --font-heading: "Work_Sans", sans-serif;
-  --font-sansitalic: "Work_Sans_Italic", sans-serif;
+  --font-sansitalic: "Noto_Serif_Italic", serif;
   --font-p: "Noto_Serif", serif;
   /* --font-p: ui-sans-serif, system-ui, sans-serif; */
   --arrow-link: #D68778;
@@ -106,7 +106,7 @@ h1:not(#hero .wp-block-heading) {
   color: var(--color-secondary);
 }
 
-.home h2:not(#hero .wp-block-heading),
+.home h2:not(#hero .wp-block-heading, #info),
 h3 {
   @apply text-3xl;
 
@@ -114,7 +114,8 @@ h3 {
 
 }
 
-#info h2 {
+#info h2,
+.home h2:not(#hero .wp-block-heading) {
   font-family: var(--font-sansitalic);
   
 }
