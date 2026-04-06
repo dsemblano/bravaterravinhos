@@ -106,7 +106,7 @@ h1:not(#hero .wp-block-heading) {
   color: var(--color-secondary);
 }
 
-.home h2:not(#hero .wp-block-heading, #info),
+.home h2:not(#hero .wp-block-heading, #hero-product .wp-block-heading),
 h3 {
   @apply text-3xl;
 
@@ -114,8 +114,7 @@ h3 {
 
 }
 
-#info h2,
-.home h2:not(#hero .wp-block-heading) {
+.home #hero-product h2 {
   font-family: var(--font-sansitalic);
   
 }
