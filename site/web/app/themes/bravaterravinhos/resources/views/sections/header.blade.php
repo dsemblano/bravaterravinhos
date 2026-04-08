@@ -1,5 +1,5 @@
-<header class="banner flex w-full z-50 top-0 left-0 bg-transparent">
-    <div class="flex flex-row lg:flex-col text-p container justify-center">
+<header class="banner flex w-full z-50 top-0 left-0 bg-transparent hover:bg-preto hover:transition-all hover:duration-300">
+    <div class="flex flex-row lg:flex-col text-white container justify-center">
         @include('partials.logo')
         @if (has_nav_menu('primary_navigation'))
             <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
