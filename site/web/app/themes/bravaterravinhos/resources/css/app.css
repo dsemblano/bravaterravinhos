@@ -26,7 +26,7 @@
   --color-section: #F4F4EF;
   --color-footer: #ECE0DD;
   --color-p: #504442;
-  --color-preto: #22242A;
+  --color-preto: #0A1215;
   --font-heading: "Work_Sans", sans-serif;
   --font-sansitalic: "Noto_Serif_Italic", serif;
   --font-p: "Noto_Serif", serif;
@@ -129,10 +129,10 @@ section#feature-products {
     padding-bottom: 3rem;
   }
 }
-
+/* 
 a {
   color: inherit
-}
+} */
 
 body {
   background-color: var(--color-fundo);
@@ -303,5 +303,5 @@ ul#menu-menu-principal {
 }
 
 footer {
-  @apply bg-footer text-center py-8 mt-16;
+  @apply bg-preto text-center py-8 mt-16 text-white;
 }

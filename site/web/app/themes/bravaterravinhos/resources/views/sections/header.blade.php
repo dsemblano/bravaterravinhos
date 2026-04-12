@@ -1,4 +1,9 @@
+
+@if (! is_front_page() && ! is_home() )
+<header class="banner flex w-full z-50 top-0 left-0 bg-preto hover:bg-preto hover:transition-all hover:duration-300">
+@else
 <header class="banner flex w-full z-50 top-0 left-0 bg-transparent hover:bg-preto hover:transition-all hover:duration-300">
+@endif
     <div class="flex flex-row lg:flex-col text-white container justify-center">
         @include('partials.logo')
         @if (has_nav_menu('primary_navigation'))

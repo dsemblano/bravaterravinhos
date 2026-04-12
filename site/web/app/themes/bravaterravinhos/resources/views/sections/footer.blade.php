@@ -1,6 +1,6 @@
-<footer class="content-info bg-verde text-primary py-6">
+<footer class="content-info bg-preto text-primary py-6">
     <div
-        class="container max-w-none ">
+        class="container max-w-none">
         @php(dynamic_sidebar('sidebar-footer'))
         <div class="text-sm mt-4 flex flex-col items-center copyright border-gray-500 border-t border-solid pt-8 gap-2">
             <span class="z-10 font-bold ">{{ date('Y') }} 
