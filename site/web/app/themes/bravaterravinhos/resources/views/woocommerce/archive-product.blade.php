@@ -23,7 +23,7 @@
     @endphp
 
     <section id="shop"
-        class="">
+        class="bg-fundo">
 
         @php
             do_action('woocommerce_archive_description');

@@ -23,7 +23,7 @@ the readme will list any important changes.
     @endphp
 
     @while (have_posts())
-        <section id="shop_single_products" class="container">
+        <section id="shop_single_products" class="container bg-fundo">
             @php
                 the_post();
                 wc_get_template_part('content', 'single-product');
