@@ -305,3 +305,6 @@ ul#menu-menu-principal {
 footer {
   @apply bg-preto text-center py-8 mt-16 text-white;
 }
+.wp-block-post-title :where(a) {
+  color: var(--color-primary);
+}
