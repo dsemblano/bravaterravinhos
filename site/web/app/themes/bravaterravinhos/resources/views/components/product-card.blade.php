@@ -30,7 +30,7 @@
         </div>
 
         {{-- TITLE --}}
-        <h3 class="text-lg font-semibold leading-tight text-secondary">
+        <h3 class="text-xl font-semibold leading-tight text-primary">
             <a href="{{ get_permalink($product->get_id()) }}">
                 {{ $product->get_name() }}
             </a>
@@ -45,7 +45,7 @@
 
         {{-- PRICE + CTA --}}
         <div class="flex items-center justify-between pt-3 min-h-28">
-            <span class="text-xl font-bold text-secondary">
+            <span class="text-xl font-bold text-primary">
                 {!! $product->get_price_html() !!}
             </span>
 

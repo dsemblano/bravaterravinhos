@@ -101,14 +101,14 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* 
 h1:not(#hero .wp-block-heading) {
   font-family: var(--font-heading);
   color: var(--color-secondary);
-}
+} */
 
 .home h2:not(#hero .wp-block-heading, #hero-product .wp-block-heading),
-h3 {
+.home h3 {
   @apply text-3xl;
 
   font-family: var(--font-heading);
