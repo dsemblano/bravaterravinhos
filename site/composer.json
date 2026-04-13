@@ -32,11 +32,6 @@
     "wp-packages": {
       "type": "composer",
       "url": "https://repo.wp-packages.org"
-    },
-    "0": {
-      "name": "wp-packages",
-      "type": "composer",
-      "url": "https://repo.wp-packages.org"
     }
   },
   "require": {
