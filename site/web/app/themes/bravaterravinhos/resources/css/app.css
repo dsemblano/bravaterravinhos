@@ -1,7 +1,8 @@
 @import "tailwindcss" theme(static);
+@source "../../app/**/*.php";
+@source "../**/*.blade.php";
+@source "../**/*.js";
 @plugin "@tailwindcss/typography";
-@source "../views/";
-@source "../../app/";
 @import './fonts.css';
 
 @theme static {

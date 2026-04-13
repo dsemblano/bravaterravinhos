@@ -20,6 +20,7 @@ export default defineConfig({
         'resources/js/editor.js',
       ],
       refresh: true,
+      assets: ['resources/images/**', 'resources/fonts/**'],
     }),
 
     wordpressPlugin(),
@@ -30,6 +31,7 @@ export default defineConfig({
       disableTailwindColors: false,
       disableTailwindFonts: false,
       disableTailwindFontSizes: false,
+      disableTailwindBorderRadius: false,
     }),
   ],
   optimizeDeps: {
